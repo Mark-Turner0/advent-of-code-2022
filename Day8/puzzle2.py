@@ -30,7 +30,6 @@ def main():
 
 def visible_trees(tree, other_trees):
     viewing_distance = 0
-    other_trees = list(other_trees)
     for single_tree in other_trees:
         viewing_distance += 1
         if int(tree) <= int(single_tree):
